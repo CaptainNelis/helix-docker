@@ -21,7 +21,7 @@ RUN \
 
 # Create perforce user and install Perforce Server
 RUN \
-  apt-get install -y helix-p4d=2022.2-2407422~~focal && \
+  apt-get install -y helix-p4d=2022.2-2407422~focal && \
   apt-get install -y helix-swarm-triggers=2022.2-2349563~focal
 
 # Add external files
